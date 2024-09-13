@@ -534,7 +534,17 @@ button:focus {
     text-decoration: underline;
 	 color: #007BFF;
 }
+@media (max-width: 768px) {
+    .language-switcher {
+        top: 5%;
+        left: 5%; /* 将位置移动到左上角 */
+        right: auto; /* 取消右边的定位 */
+    }
 
+    .language-switcher a {
+        font-size: 1rem; /* 手机浏览时字体大小改为1rem */
+    }
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Archivo", sans-serif;
   font-weight: 700;
