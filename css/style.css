@@ -536,8 +536,8 @@ button:focus {
 }
 @media (max-width: 768px) {
     .language-switcher {
-        top: 5%;
-        left: 5%; /* 将位置移动到左上角 */
+        top: 2%;
+        left: 3%; /* 将位置移动到左上角 */
         right: auto; /* 取消右边的定位 */
     }
 
